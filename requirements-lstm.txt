@@ -1,0 +1,8 @@
+# Optional deep-learning extras (LSTM branch).
+# NOTE: TensorFlow does not publish wheels for every Python release.
+# Recommended: create a dedicated virtualenv with Python 3.11 or 3.12 for the LSTM.
+#   python3.12 -m venv .venv-lstm
+#   .venv-lstm/Scripts/activate
+#   pip install -r requirements.txt -r requirements-lstm.txt
+tensorflow>=2.16 ; python_version < "3.13"
+899 

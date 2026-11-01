@@ -1,0 +1,28 @@
+# --- secrets ---
+.env
+
+# --- generated data & model files ---
+# The raw CSVs are a download cache: reproducible from the tickers in
+# settings.py, and they make commits huge for no benefit.
+data/raw/
+data/processed/
+artifacts/
+figures/
+
+# --- python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# --- tooling ---
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
